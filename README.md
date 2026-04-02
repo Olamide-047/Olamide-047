@@ -1,16 +1,29 @@
-## Hi there 👋
+ Hi there 👋
 
-<!--
-**Olamide-047/Olamide-047** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<!-- =========================
+     👋 ReactJS Code-Style Intro
+========================= -->
+```jsx
+import React from "react";
 
-Here are some ideas to get you started:
+const DeveloperProfile = () => {
+  const name = "Akerele Olamide";
+  const role = "Full-Stack Developer";
+  const skills = ["HTML", "CSS", "JavaScript", "React", "Node.js"];
+  const interests = ["Open Source", "AI", "Web Development"];
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
+  const greet = () => "Welcome to my GitHub profile!";
+
+  return (
+    <div>
+      <h1>Hello World 👋</h1>
+      <h2>{`I'm Akerele Olamide - Web-developer`}</h2>
+      <p>{greet()}</p>
+      <p>Skills: {skills.join("Soft-skills, web-design, Virtual Assistant")}</p>
+      <p>Interests: {interests.join("AI, Web-3, Application design")}</p>
+    </div>
+  );
+};
+
+export default DeveloperProfile;.
 -->
